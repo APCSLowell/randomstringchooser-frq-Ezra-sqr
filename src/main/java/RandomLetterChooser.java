@@ -3,7 +3,9 @@ public class RandomLetterChooser extends RandomStringChooser
 	
 	public RandomLetterChooser(String str)
 	{ 
-		/* to be implemented in part (b) */
+		MyArray=new ArrayList<String>();
+		for(int i+0; i<getSingleLetters(str).length;i++)
+			myArray.add(getSingleLetters(str)[i];
 		
 	}
 	
