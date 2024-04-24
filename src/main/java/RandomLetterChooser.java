@@ -4,8 +4,8 @@ public class RandomLetterChooser extends RandomStringChooser
 	public RandomLetterChooser(String str)
 	{ 
 		MyArray=new ArrayList<String>();
-		for(int i+0; i<getSingleLetters(str).length;i++)
-			myArray.add(getSingleLetters(str)[i];
+		for(int i=0; i<getSingleLetters(str).length;i++)
+			myArray.add(getSingleLetters(str)[i]);
 		
 	}
 	
